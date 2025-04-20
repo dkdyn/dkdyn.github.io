@@ -1,2 +1,1 @@
-# dkdyn.github.io
-Homepage of Dominik Kern Dynamics (DKDYN)
+Homepage of Dominik Kern Dynamics - Engineering Services

@@ -1,0 +1,4 @@
+export svg to png (Inkscape)
+make sure 512x512 and turn white to transparency (Gimp)
+generate favicons    https://favicon.io
+
