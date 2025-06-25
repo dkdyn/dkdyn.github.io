@@ -108,7 +108,7 @@ html {
 }
 
 .main-nav img {
-        padding: 0.5em;
+        padding: 0.5em 0.5em;
         display: block;
 }
 
@@ -134,4 +134,18 @@ img {
 .author {
         text-align: right;
         padding-right: 5%;
+}
+
+
+/* Styles for the new language switcher in the navbar */
+.main-nav a.lang-switch {
+  display: flex;         /* Aligns the image and text in a row */
+  align-items: center;   /* Vertically centers the image and text */
+  gap: 8px;              /* Adds a small space between the image and text */
+}
+
+/* Override the block property for the image inside the language switcher */
+.main-nav a.lang-switch img {
+  display: inline;
+  padding: 0;
 }
