@@ -56,7 +56,7 @@ html {
 }
 
 .page-footer a {
-        padding: 0.5em 1em;
+        padding: 0.3em 1em;
         color: #fff;
         text-decoration: none;
         font-weight: bold;
@@ -64,7 +64,7 @@ html {
 
 
 .footer-text-div {
-        padding: 0.5em 1em;
+        padding: 0.3em 1em;
         color: #fff;
         border-right: 1px;
         border-right-color: #fff;
@@ -72,7 +72,7 @@ html {
 }
 
 .footer-active-div {
-        padding: 0.5em 1em;
+        padding: 0.3em 1em;
         color: #fff;
         background-color: rgb(55, 50, 54);
 }
@@ -93,7 +93,7 @@ html {
 }
 
 .main-nav a {
-        padding: 0.5em 1em;
+        padding: 0.3em 1em;
         display: block;
         color: #fff;
         text-decoration: none;
@@ -101,16 +101,16 @@ html {
 }
 
 .main-nav div {
-        padding: 0.5em 1em;
+        padding: 0.3em 1em;
         display: block;
         color: #fff;
         background-color: rgb(55, 50, 54);
 }
 
-.main-nav img {
+/*.main-nav img {
         padding: 0.5em 0.5em;
         display: block;
-}
+}*/
 
 .push {
         margin-left: auto;
@@ -155,7 +155,6 @@ img {
         border-bottom-color: #fff;
         border-bottom-style: solid;
 }
-
 
 
 
