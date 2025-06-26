@@ -82,7 +82,7 @@ html {
 }
 
 .startpage-body {
-        padding-top: 10%;
+        padding-top: 1%;
 }
 
 .main-nav {
@@ -127,13 +127,12 @@ img {
         }
 }
 
-.quotation {
+.text-center {
         text-align: center;
 }
 
-.author {
+.text-right {
         text-align: right;
-        padding-right: 5%;
 }
 
 
@@ -210,4 +209,51 @@ img {
 #cookie-decline-btn {
     background-color: #dc3545;
     color: white;
+}
+
+
+/* --- CORRECTED AND IMPROVED CSS --- */
+
+/* --- RECOMMENDED SOLUTION --- */
+
+/*
+ * Add this rule at the TOP of your CSS file.
+ * It makes layouts much more predictable.
+ */
+/**, *::before, *::after {
+  box-sizing: border-box;
+}*/
+
+
+/* The main container that holds both columns */
+.container {
+  display: flex;  /* Establishes the flexbox layout */
+  align-items: flex-start; /* Aligns columns to the top */
+  gap: 25px;      /* Sets the space between the image and the text. Adjust as needed. */
+  padding-right: 5%;  /* Creates the 5% space from the right browser edge */
+  margin-bottom: 20px; /* Optional: Adds some space below the whole block */
+}
+
+
+/* The Figure (Image Column) */
+.container-figure {
+  width: 20%;        /* Sets the figure to take up exactly 20% of the container's width */
+  flex-shrink: 0;    /* Prevents this column from shrinking */
+  margin: 0;         /* Removes the default margin from the figure element */
+}
+
+
+/* The Image inside the figure */
+.container-figure img {
+  width: 100%;       /* Makes the image fill its 20% column perfectly */
+  height: auto;      /* Maintains the image's aspect ratio */
+  display: block;    /* Removes extra space that can appear below images */
+}
+
+
+/* The Text Content (Text Column) */
+.container-text {
+  /* This property is the key: it tells the text block to grow
+     and flexibly take up all the remaining space. */
+  flex: 1;
 }
