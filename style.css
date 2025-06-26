@@ -155,3 +155,60 @@ img {
         border-bottom-color: #fff;
         border-bottom-style: solid;
 }
+
+
+
+
+/* Cookie Banner Styles */
+#cookie-banner-container {
+    display: none; /* Hidden by default, shown by JS */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    padding: 15px 25px;
+    z-index: 1000;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.cookie-banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cookie-banner-content p {
+    margin: 0;
+    margin-right: 20px;
+    flex-grow: 1;
+}
+
+.cookie-banner-content a {
+    color: #4db2ec;
+    text-decoration: underline;
+}
+
+.cookie-banner-buttons button {
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#cookie-accept-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#cookie-decline-btn {
+    background-color: #dc3545;
+    color: white;
+}
