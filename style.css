@@ -129,6 +129,7 @@ img {
 
 .text-center {
         text-align: center;
+        padding: 2%;
 }
 
 .text-right {
@@ -163,7 +164,7 @@ img {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 95%;
     background-color: #222;
     color: #fff;
     padding: 15px 25px;
@@ -231,6 +232,7 @@ img {
   align-items: flex-start; /* Aligns columns to the top */
   gap: 25px;      /* Sets the space between the image and the text. Adjust as needed. */
   padding-right: 5%;  /* Creates the 5% space from the right browser edge */
+  padding-left: 5%;  /* Creates the 5% space from the right browser edge */
   margin-bottom: 20px; /* Optional: Adds some space below the whole block */
 }
 
